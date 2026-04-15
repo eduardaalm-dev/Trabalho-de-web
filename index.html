@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>EEEP Lúcia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/Logo_lbc.png" type="image/png">
+    </head>
+
+    <body>
+        <header>
+            <img src="images/Logo_lbc.png" alt="Logo da escola" id="Logo_ep">
+            <nav>
+
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#historia">História</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#estrutura">Estrutura</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="inicio">  
+            <div class="hero">
+                <img src="hero/Fundo verde.png" alt="Fundo verde do banner.">
+                <img class="element_dir" src="hero/Laranja.png" alt="Detalhe laranja do banner.">
+                <img class="element_dir" src="hero/Formando.png" alt="Aluno capa do banner, formando.">
+                <img class="element_esq" src="hero/LBC.png" alt="Nome da escola.">
+                <img class="element_esq" src="hero/EEEP.png" alt="Definição da sigla EEEP.">
+                <img class="element_esq" src="hero/Excelencia.png" alt="Frase caracteristica da escola.">
+                <button id = "botao_hero"onclick="onclick_matricula()">Matricule-se</button>
+                <ul id="lista_matricula"></ul>
+            </div>
+        <div class="onda_cima"></div>
+        </section>
+        <section class="marketing">
+            <h2>Somente 4 anos e já fizemos história</h2>
+            <ul class="lista_marketing">
+                <li class="card_marketing">
+                    <img src="images/Icone_alunomarketing.png" alt="Icone simbolizando um aluno" class="img_marketing">
+                    <p class="estatistica">+400</p>
+                    <p class="text_marketing">Alunos matriculados</p>
+                </li>
+                <li class="card_marketing">
+                    <img src="images/Icone_profmarketing.png" alt="Icone simbolizando uma professora" class="img_marketing">
+                    <p class="estatistica">+15</p>
+                    <p class="text_marketing">Professores qualificados</p>
+                </li>
+                <li class="card_marketing">
+                    <img src="images/Icone_formatura.png" alt="Icone simbolizando uma pessoa graduada" class="img_marketing">
+                    <p class="estatistica">+70</p>
+                    <p class="text_marketing">Aprovações em vestibulares</p>
+                </li>
+            </ul>
+            <ul class="lista_selos">
+                <li id="selo1">
+                    <img src="images/Selo_ouro.png" alt="Icone de uma medalha">
+                    <p>Selo ouro 2026</p>
+                </li>
+                <li id="selo2">
+                    <img src="images/Selo_antirracista.png" alt="Icone contra o racismo">
+                    <p>Selo antirracista 2025-2027</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="historia">
+            <div class="gradient"></div>
+            <div class="container_hist">
+                <h2>Nossa história</h2>
+                <img src="images/Design_historia.png" alt="Foto de Lucia Baltazar e historia">
+            </div>
+        </section>
+
+        <section id="cursos">
+            <div class="onda_baixo"></div>
+            <h2>Cursos Oferecidos</h2>
+            <ul class="lista_cursos">
+                <li class="curso">
+                    <img src="images/Icone_adm.png" alt="Icone simbolizando administração">
+                    <h3>Administração</h3>
+                    <p> Formação em gestão de empresas, com foco em planejamento, finanças e liderança. 
+                    Prepara para atuação estratégica e administrativa. </p>
+                </li>
+                <li class="curso">
+                    <img src="images/Icone_dds.png" alt="Icone simbolizando desenvolvimento de sistemas">
+                    <h3>Desenvolvimento de sistemas</h3>
+                    <p> Formação em programação e criação de softwares. Desenvolve lógica 
+                    e trabalho em equipe para atuar na área de tecnologia. </p>
+                </li>
+                <li class="curso">
+                    <img src="images/Icone_edf.png" alt="Icone simbolizando edificações">
+                    <h3>Edificações</h3>
+                    <p> Formação em construção e projetos. Ensina desenho técnico, 
+                    topografia e gestão de obras, preparando para a construção civil. </p>
+                </li>
+                <li class="curso">
+                    <img src="images/Icone_masso.png" alt="Icone simbolizando massoterapia">
+                    <h3>Massoterapia</h3>
+                    <p> Formação em técnicas de massagem e bem-estar. 
+                    Desenvolve cuidado e ética para atuação na área da saúde. </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="estrutura">
+            <h2>Infraestrutura da Escola</h2>
+            <h3 class="frase_c">Ambientes preparados para transformar teoria em prática.</h3>
+            <div class="slider">
+                <div class="slides">
+
+                <input type="radio" name="radio_botao" id="radio1">
+                <input type="radio" name="radio_botao" id="radio2">
+                <input type="radio" name="radio_botao" id="radio3">
+                <input type="radio" name="radio_botao" id="radio4">
+
+                <div class="nav_auto">
+                    <div class="auto_botao1"></div>
+                    <div class="auto_botao2"></div>
+                    <div class="auto_botao3"></div>
+                    <div class="auto_botao4"></div>
+                </div>
+
+                    <div class="slide first">
+                        <ul class="lista_itens">
+                            <li class="item">
+                                <img src="images/Foto_labfisicafrente.jpg" alt="Foto do laboratório de Física.">
+                                <h3>Laboratório de Física</h3>
+                                <p> Ideal para atividades práticas.
+                                Bancadas equipadas com instrumentos de medição e aparelhos experimentais diversos.
+                                Estrutura organizada com mesas e pontos de apoio para diferentes experimentos.
+                                Um espaço completo que torna o aprendizado mais dinâmico e envolvente. </p>
+                            </li>
+                            <li class="item">
+                                <img src="images/Foto_labbiotras.jpg" alt="Foto do laboratório de biologia.">
+                                <h3>Laboratório de Biologia</h3>
+                                <p> Vivo e cheio de detalhes, pensado para explorar o funcionamento dos seres vivos de perto.
+                                O espaço reúne modelos anatômicos, materiais de análise e recursos que aproximam a teoria da prática.
+                                Favorece a observação e a investigação científica.
+                                Um ambiente que desperta curiosidade e convida a descobrir como a vida funciona em cada detalhe. </p>
+                            </li>
+                            <li class="item">
+                                <img src="images/Foto_labquimesquerda.jpg" alt="Foto do laboratório de química.">
+                                <h3>Laboratório de Química</h3>
+                                <p> Bem equipado, ideal para colocar a ciência em prática.
+                                Com vidrarias, reagentes e bancadas organizadas, o espaço permite realizar experimentos de forma segura e dinâmica.
+                                Aqui, cada aula se transforma em descoberta, despertando o interesse e a curiosidade dos estudantes. </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="slide">
+                        <ul class="lista_itens">
+                            <li class="item">
+                                <img src="images/Foto_labinfor.jpg" alt="Foto do laboratório de informática.">
+                                <h3 class="h3_estrutura">Laboratório de Informática</h3>
+                                <p> Amplo e bem organizado, com diversos computadores disponíveis para uso dos alunos.
+                                O espaço favorece atividades práticas, pesquisas e o desenvolvimento de habilidades digitais no dia a dia.
+                                Um ambiente pensado para explorar a tecnologia de forma dinâmica e produtiva. </p>
+                            </li>
+                            <li class="item">
+                                <img src="images/Foto_lablingua.jpg" alt="Foto do laboratório de linguagens.">
+                                <h3 class="h3_estrutura">Laboratório de Linguagens</h3>
+                                <p> Organizado e acolhedor, equipado com computadores que apoiam o aprendizado de forma prática.
+                                O espaço favorece o desenvolvimento da escuta, leitura e pronúncia, tornando o contato com o idioma mais natural no dia a dia.
+                                Um ambiente ideal para ganhar confiança e evoluir na comunicação. </p>
+                            </li>
+                            <li class="item">
+                                <img src="images/Foto_labmat.jpg" alt="Foto do laboratório de matemática.">
+                                <h3 class="h3_estrutura">Laboratório de Matemática</h3>
+                                <p> Com recursos que tornam o aprendizado mais visual e prático.
+                                Conta com réguas, formas geométricas e materiais de encaixe que ajudam a compreender tamanhos, 
+                                proporções e sequências.
+                                Um espaço que facilita a compreensão dos conceitos no dia a dia. </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="slide">
+                        <ul class="lista_itens">
+                            <li class="item">
+                                <img src="images/Foto_biblioteca.jpg" alt="Foto da biblioteca.">
+                                <h3 class="h3_estrutura">Biblioteca</h3>
+                                <p> Ambiente acolhedor e bem estruturado, com um acervo variado de livros que atende diferentes 
+                                áreas do conhecimento e um espaço organizado com mesas, cadeiras e computadores, 
+                                ideal para leitura, pesquisas e trabalhos, proporcionando conforto, concentração 
+                                e mais produtividade nos estudos do dia a dia. </p>
+                            </li>
+                            <li class="item">
+                                <img src="images/Foto_biblioteca.jpg" alt="Foto do auditório.">
+                                <h3 class="h3_estrutura">Auditório</h3>
+                                <p> Amplo, com capacidade para receber muitos alunos com conforto.
+                                Conta com palco e estrutura adequada para apresentações, palestras e encontros importantes.
+                                É o espaço onde acontecem eventos como CEMAS, ETAD, CONED e Code Talks, reunindo conhecimento, 
+                                troca de ideias e grandes experiências. </p>
+                            </li>
+                            <li class="item">
+                                <img src="images/Foto_quadrapoli.jpg" alt="Foto da quadra poliesportiva.">
+                                <h3 class="h3_estrutura">Quadra poliesportiva</h3>
+                                <p> Preparada para a prática de diferentes esportes e atividades físicas.
+                                É também o palco de grandes momentos da escola, como o JECEP, Esquenta JECEP, Gincana LBC e outros eventos.
+                                Um espaço cheio de energia, onde esporte, integração e diversão se encontram. </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide">
+                        <ul class="lista_itens">
+                            <li class="item">
+                                <img src="images/Foto_labbiotras.jpg" alt="Meio engrenagem e meio sistema, 
+                                simbolizando a junção de dds e edf">
+                                <h3 class="h3_estrutura">Laboratório especial: DDS & EDF</h3>
+                                <p> Voltado para as aulas práticas dos cursos de Desenvolvimento de Sistemas e Edificações.
+                                Conta com computadores, maquetes e materiais que aproximam os alunos da prática no dia a dia.
+                                Um espaço que contribui para o aprendizado direto e o desenvolvimento das habilidades dos estudantes. </p>
+                            </li>
+                            <li class="item">
+                                <img src="images/Foto_labquimesquerda.jpg" alt="Um boneco fazendo massagem em outro, 
+                                simbolizando o laboratório de massoterapia">
+                                <h3 class="h3_estrutura">Laboratório especial: Massoterapia</h3>
+                                <p></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="nav_manual">
+                    <label for="radio1" class="manual_botao"></label>
+                    <label for="radio2" class="manual_botao"></label>
+                    <label for="radio3" class="manual_botao"></label>
+                    <label for="radio4" class="manual_botao"></label>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 id="eventos">Nossos eventos</h2>
+            <ul class="lista_eventos1">
+                <li class="evento">
+                    <img src="images/Foto_oficdossonhos.png" alt="Icone simbolizando a oficina dos sonhos">
+                    <h3>Oficina dos sonhos</h3>
+                    <p> Espaço onde os alunos exploram ideias e metas de vida, 
+                    refletindo sobre o futuro. As atividades envolvem troca 
+                    de experiências, criatividade e colaboração, incentivando uma 
+                    visão mais consciente e planejada. </p>
+                </li>
+                <li class="evento">
+                    <img src="images/Foto_carnaval.png" alt="Icone simbolizando o carnaval">
+                    <h3>Carnaval</h3>
+                    <p> Evento de diversão e criatividade, com fantasias livres e desfile 
+                    competitivo. Promove integração entre alunos e professores, celebrando 
+                    o espírito festivo e a imaginação de todos. </p>
+                </li>
+                <li class="evento">
+                    <img src="images/Foto_codetalks.png" alt="Icone simbolizando os eventos técnicos">
+                    <h3>ETAD, Code Talks, CONED & CEMAS</h3>
+                    <p> Eventos técnicos voltados para cada curso, com palestras, práticas e 
+                        participação de ex-alunos. Favorecem a troca de experiências entre turmas e 
+                        fortalecem o aprendizado na área. </p>
+                </li>
+            </ul>
+            <ul class="lista_eventos2">
+                <li class="evento">
+                    <img src="images/Foto_gincana.jpeg" alt="Icone simbolizando a gincana de aniversário da EP">
+                    <h3>Gincana LBC</h3>
+                    <p> Competição entre os cursos em comemoração ao aniversário da escola, 
+                    com provas criativas, quizzes e apresentações. Estimula trabalho em equipe, 
+                    conhecimento e participação. </p>
+                </li>
+                <li class="evento">
+                    <img src="images/Foto_arraia.png" alt="Icone simbolizando a festa junina da EP">
+                    <h3>Arraiá</h3>
+                    <p> Festa junina organizada pelos alunos, com decoração, barracas, comidas e 
+                    brincadeiras. Reúne a comunidade escolar em um momento de cultura, 
+                    integração e animação. </p>
+                </li>
+                <li class="evento">
+                    <img src="images/Foto_JECEP.png" alt="Icone simbolizando os eventos esportivos da EP">
+                    <h3>Esquenta JECEP & JECEP</h3>
+                    <p> Competições esportivas e disputa em jogos eletrônicos entre cursos e turmas. 
+                    Promovem integração, espírito competitivo e participação ativa dos alunos. </p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Nos contate</h2>
+            <ul class="lista_contato">
+                <li class="info_contato">
+                    <img src="images/Icone_localiza.png" alt="Simbolo para localização">
+                    <p>Rua gonçalves pereira, S/N, Luíz Alves de Freitas, Limoeiro do Norte, CE.</p>
+                </li>
+                <li class="info_contato">
+                    <img src="images/Icone_horarios.png" alt="Simbolo para o horario de funcionamento">
+                    <p>Segunda à sexta: 7:00 às 17:00.</p>
+                </li>
+                <li class="info_contato">
+                    <img src="images/Icone_email.png" alt="Simbolo para o email da escola">
+                    <p>eplimoeiro@escola.ce.gov.br</p>
+                </li>
+                <li class="info_contato">
+                    <img src="images/Icone_telefone.png" alt="Simbolo para o telefone da escola">
+                    <p>(88) 9.9972-7052</p>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>Copyright &copy; Escola Lúcia Baltazar Costa | Todos os direitos reservados</p>
+            <p>Desenvolvido por: <a href="https://github.com/eduardaalm-dev">Eduarda</a></p>
+        </footer>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
